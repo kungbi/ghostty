@@ -7,6 +7,8 @@ theme = Dracula
 palette = 8=#9aa9d8
 palette = 4=#a89bf9
 palette = 12=#cdb8ff
+palette = 1=#ff4d4d
+palette = 9=#ff6b6b
 
 # 배경 대비가 낮은(흐린) 글자를 강제로 밝게 — 트루컬러 헤더 등에도 적용
 minimum-contrast = 3
@@ -26,8 +28,8 @@ adjust-cell-height = 15%
 #  Window / Appearance
 # ─────────────────────────────────────────────
 background = 000000
-background-opacity = 0.80
-background-blur-radius = 30
+background-opacity = 0.88
+background-blur-radius = 24
 window-padding-x = 14
 window-padding-y = 10
 window-padding-balance = true
@@ -36,6 +38,10 @@ macos-titlebar-style = transparent
 macos-titlebar-proxy-icon = hidden
 macos-non-native-fullscreen = true
 unfocused-split-opacity = 0.85
+window-inherit-working-directory = true
+window-new-tab-position = end
+split-divider-color = #44475a
+focus-follows-mouse = true
 
 # ─────────────────────────────────────────────
 #  Cursor
@@ -52,6 +58,17 @@ scrollback-limit = 100000
 copy-on-select = clipboard
 confirm-close-surface = false
 clipboard-paste-protection = true
+resize-overlay = never
+mouse-scroll-multiplier = 2
+cursor-invert-fg-bg = true
+bold-is-bright = true
+
+# ─────────────────────────────────────────────
+#  Quick Terminal (드롭다운)
+# ─────────────────────────────────────────────
+quick-terminal-position = top
+quick-terminal-animation-duration = 0.15
+keybind = global:cmd+grave_accent=toggle_quick_terminal
 
 # ─────────────────────────────────────────────
 #  Keybindings
