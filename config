@@ -26,8 +26,8 @@ adjust-cell-height = 15%
 #  Window / Appearance
 # ─────────────────────────────────────────────
 background = 000000
-background-opacity = 0.93
-background-blur-radius = 20
+background-opacity = 0.80
+background-blur-radius = 30
 window-padding-x = 14
 window-padding-y = 10
 window-padding-balance = true
