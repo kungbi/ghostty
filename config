@@ -3,6 +3,14 @@
 # ─────────────────────────────────────────────
 theme = Dracula
 
+# 순수 검정 배경에서 잘 안 보이던 어두운 파란색 계열 밝게 보정
+palette = 8=#9aa9d8
+palette = 4=#a89bf9
+palette = 12=#cdb8ff
+
+# 배경 대비가 낮은(흐린) 글자를 강제로 밝게 — 트루컬러 헤더 등에도 적용
+minimum-contrast = 3
+
 # ─────────────────────────────────────────────
 #  Font
 # ─────────────────────────────────────────────
@@ -18,7 +26,8 @@ adjust-cell-height = 15%
 #  Window / Appearance
 # ─────────────────────────────────────────────
 background = 000000
-background-opacity = 1.0
+background-opacity = 0.93
+background-blur-radius = 20
 window-padding-x = 14
 window-padding-y = 10
 window-padding-balance = true
