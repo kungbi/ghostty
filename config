@@ -46,7 +46,7 @@ mouse-hide-while-typing = true
 # ─────────────────────────────────────────────
 scrollback-limit = 100000
 copy-on-select = clipboard
-confirm-close-surface = false
+confirm-close-surface = always
 clipboard-paste-protection = true
 resize-overlay = never
 mouse-scroll-multiplier = 2
