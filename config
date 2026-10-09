@@ -31,7 +31,7 @@ unfocused-split-opacity = 0.85
 window-inherit-working-directory = true
 window-new-tab-position = end
 split-divider-color = #44475a
-focus-follows-mouse = true
+focus-follows-mouse = false
 
 # ─────────────────────────────────────────────
 #  Cursor
